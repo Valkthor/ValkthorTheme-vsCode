@@ -1,20 +1,28 @@
 {
     "name": "ValkthorTheme",
-    "displayName": "ValkthorTheme",
-    "description": "test description",
+    "displayName": "ValkthorTheme based in deepdark-material",
+    "description": "ValkthorTheme based in deepdark-material",
     "version": "0.0.1",
+    "publisher": "Valkthor",
     "engines": {
         "vscode": "^1.64.0"
     },
+
+    "homepage": "https://github.com/Valkthor/ValkthorTheme-vsCode/readme.md",
+    "license": "MIT",
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Valkthor/ValkthorTheme-vsCode"
+    },
     "contributes": {
         "themes": [
             {
                 "label": "ValkthorTheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ValkthorTheme-color-theme.json"
+                "path": "./themes/Valkthor-dark-theme.json"
             }
         ]
     }
