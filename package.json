@@ -2,7 +2,7 @@
     "name": "ValkthorTheme",
     "displayName": "ValkthorTheme based in deepdark-material",
     "description": "ValkthorTheme based in deepdark-material",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Valkthor",
     "engines": {
         "vscode": "^1.64.0"
@@ -22,7 +22,7 @@
             {
                 "label": "ValkthorTheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Valkthor-dark-theme.json"
+                "path": "./themes/ValkthorDark-color-theme.json"
             }
         ]
     }
