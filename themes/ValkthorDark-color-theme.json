@@ -15,6 +15,17 @@
             }
         },
 
+        //NUEVO
+
+        {
+            "name": "variables dentro del comentario",
+            "scope": "variable.other.jsdoc",
+            "settings": {
+                "foreground": "#CAC9C9",
+                //"fontStyle": "bold"
+            }
+        },
+
         {
             "name": "entity.name.tag",
             "scope": "entity.name.tag",
@@ -186,13 +197,13 @@
             }
         },
 
-        //revisado
+        //revisado, color de descripcion de nombres dentro de una funcion cuand
         {
             "name": "Class name",
             "scope": "entity.name.class, entity.name.type",
             "settings": {
-                "fontStyle": "",
-                "foreground": "#FF5E5E",
+                "fontStyle": "italic",
+                "foreground": "#B5D675", //FF5E5E
 			
             }
         },
@@ -667,7 +678,7 @@
             "name": "Tag Name",
             "scope": ["entity.name.tag"],
             "settings": {
-                "foreground": "#FF5E5E"
+                "foreground": "#FF5E5E" //FF5E5E
             }
         },
         {
@@ -1152,7 +1163,28 @@
         "tree.tableColumnsBorder":"#09ff00",
         "tree.tableOddRowsBackground": "#f700ff",
 
-        "terminal.background": "#080808",
+        //"terminal.background": "#080808",
+        "terminal.background":"#212121",
+        "terminal.foreground":"#EEFFFF",
+        "terminalCursor.background":"#EEFFFF",
+        "terminalCursor.foreground":"#EEFFFF",
+        "terminal.ansiBlack":"#212121",
+        "terminal.ansiBlue":"#82AAFF",
+        "terminal.ansiBrightBlack":"#4A4A4A",
+        "terminal.ansiBrightBlue":"#82AAFF",
+        "terminal.ansiBrightCyan":"#89DDFF",
+        "terminal.ansiBrightGreen":"#C3E88D",
+        "terminal.ansiBrightMagenta":"#C792EA",
+        "terminal.ansiBrightRed":"#F07178",
+        "terminal.ansiBrightWhite":"#FFFFFF",
+        "terminal.ansiBrightYellow":"#FFCB6B",
+        "terminal.ansiCyan":"#89DDFF",
+        "terminal.ansiGreen":"#C3E88D",
+        "terminal.ansiMagenta":"#C792EA",
+        "terminal.ansiRed":"#F07178",
+        "terminal.ansiWhite":"#EEFFFF",
+        "terminal.ansiYellow":"#FFCB6B",
+
 
         "editorGroup.border": "#777777",
         "editorGroup.dropBackground": "#6e6e6e40",
@@ -1211,7 +1243,7 @@
         "editor.findRangeHighlightBackground": "#50504F4D",
 
         "editor.hoverHighlightBackground": "#333332", //333332
-        "editor.lineHighlightBackground": "#212121", //212121
+        "editor.lineHighlightBackground": "#202020", //212121 // color de linea donde esta el cursor
         "editor.lineHighlightBorder": "#292928",
         "editorLink.activeForeground": "#8C8C8A",
         "editor.rangeHighlightBackground": "#50504F4D", //50504F4D
@@ -1219,8 +1251,8 @@
         "editorIndentGuide.background": "#333332", //333332 https://stephencharlesweiss.com/vscode-explorer-tree-resize
         "editorIndentGuide.activeBackground": "#50504F", // 50504F
         "editorRuler.foreground": "#010b97", // 333332
-        "editorCodeLens.foreground": "#808E68",  // 6D6D6D
-        "editorBracketMatch.background": "#ff0000",
+        "editorCodeLens.foreground": "#808E68",  // 6D6D6D 
+        "editorBracketMatch.background": "#ff0000", //ff0000
         "editorBracketMatch.border": "#50504F",
 
         "editorOverviewRuler.findMatchForeground": "#e5ff00", // ori DA0093
