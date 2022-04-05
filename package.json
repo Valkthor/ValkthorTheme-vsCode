@@ -2,7 +2,7 @@
     "name": "ValkthorTheme",
     "displayName": "ValkthorTheme based in deepdark-material",
     "description": "ValkthorTheme based in deepdark-material",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "publisher": "Valkthor",
     "engines": {
         "vscode": "^1.64.0"

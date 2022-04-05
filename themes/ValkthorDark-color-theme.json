@@ -9,7 +9,7 @@
             "name": "Comment",
             "scope": ["comment"],
             "settings": {
-                "foreground": "#808080",
+                "foreground": "#858585",
                 "fontStyle": "italic"
                 
             }
@@ -89,7 +89,7 @@
             "settings": {
                 
                 // color de las rutas y otras cosas
-                "foreground": "#69f0afc9" //69f0ae
+                "foreground": "#EFA16B" //69f0ae
 
             }
         },
@@ -117,7 +117,7 @@
             "name": "Language Constant (`true`, `false, `null`, etc.)",
             "scope": ["constant.language"],
             "settings": {
-                "foreground": "#3ea8ff" //ff3e3e
+                "foreground": "#72e4ec" //ff3e3e
             }
         },
 
@@ -148,16 +148,17 @@
             "scope": ["keyword.control"],
             "settings": {
                 "foreground": "#9575cd"
+                
             }
         },
 
         // revisado
         {
-            "name": "Storage Type (`function`, `class`, `int`, `bool`, etc.)",
+            "name": "Storage Type (`function`, `class`, `int`, `bool`, `const`, `let`  etc.)",
             "scope": ["storage.type"],
             "settings": {
                 // define el color de las constantes tambien
-                "foreground": "#fffb2ab6" //fffb2a fffb2adc
+                "foreground": "#fffb2ab6" // fffb2ab6 fffb2a fffb2adc  f16b8c
             }
         },
 
@@ -166,7 +167,8 @@
             "name": "Storage Modifier (`public`, `private`, `static`, etc.)",
             "scope": ["storage.modifier"],
             "settings": {
-                "foreground": "#69f0ae"
+                "fontStyle": "italic",
+                "foreground": "#9575CD" //69f0ae
             }
         },
 
@@ -202,8 +204,8 @@
             "name": "Class name",
             "scope": "entity.name.class, entity.name.type",
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#B5D675", //FF5E5E
+                //"fontStyle": "italic bold",
+                "foreground": "#B8FCB1", //FF5E5E B5D675
 			
             }
         },
@@ -612,7 +614,7 @@
             "scope": ["meta.parameters"],
             "settings": {
                 "foreground": "#2600ff",
-                "fontStyle": "bold"
+                //"fontStyle": "bold"
             }
         },
         {
@@ -630,7 +632,9 @@
                 "meta.method-call entity.name.function"
             ],
             "settings": {
-                "foreground": "#d68d5b"
+                "fontStyle": "underline",
+                "foreground": "#B8FCB1" // d68d5b B8FCB1 FFE79A
+
             }
         },
         {
@@ -641,7 +645,8 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#B8FCB1"
+                "fontStyle": "underline",
+                "foreground": "#B8FCB1" // d68d5b B8FCB1
             }
         },
         {
@@ -892,7 +897,6 @@
         {
             "scope": ["meta.embedded", "source.groovy.embedded"],
             "settings": {
-                "background": "#1e1e1e",
                 "foreground": "#C5C8C6"
             }
         },
@@ -1139,6 +1143,14 @@
         "menubar.selectionBackground": "#151E26", //212121
         "menubar.selectionForeground": "#BDAE98",
 
+        // navegacion superior arriba del editor
+        "breadcrumb.foreground": "#998870", // 6D6D6D 998870
+        "breadcrumb.focusForeground": "#BDAE98", // 8C8C8A
+        "breadcrumb.background":"#151E26",
+        "breadcrumb.activeSelectionForeground": "#998870",
+        "breadcrumbPicker.background": "#151E26", // "#292928" "#0E171F" 283138
+
+
         // file explorer
         "list.activeSelectionForeground": "#B2B2B1", // "#B2B2B1"
         "list.activeSelectionBackground": "#080808",
@@ -1240,20 +1252,20 @@
         "editorCursor.background":"#ff0000",
         "editorCursor.foreground": "#D0D0D0", //D0D0D0
 
-        "editor.selectionBackground": "#50504F", // ori 50504F
-        "editor.selectionHighlightBackground": "#3D3D3C", // 3D3D3C
-        "editor.inactiveSelectionBackground": "#3D3D3C", // 3D3D3C
-        "editor.wordHighlightBackground": "#0c5ea579", //333332
+        "editor.selectionBackground": "#1290ff80", // 1290ff86 50504F ori 50504F // texto que se marca con doble click
+        "editor.selectionHighlightBackground": "#1290ff3b", // 6f8b00af 3D3D3C // texto que coincide con el seleccionado
+        "editor.inactiveSelectionBackground": "#1290ff3b", // 3D3D3C
+        "editor.wordHighlightBackground": "#1290ff3b", // 0c5ea579 333332
         ///"editor.wordHighlightBorder":"#ff0000",
-        "editor.wordHighlightStrongBackground": "#0c5ea579", // ori DA0093
+        //"editor.wordHighlightStrongBackground": "#1290ff3b", // 0c5ea579 ori DA0093
 
-        "editor.findMatchBackground": "#43a0484d", ///43a047 // cuando encuentra algo en el buscador y al pinchar te muestra donde esta lo buscado
+        "editor.findMatchBackground": "#1290ff3b",  /// 43a0484d 43a047 // cuando encuentra algo en el buscador y al pinchar te muestra donde esta lo buscado
         "editor.findMatchHighlightBackground": "#880e4f",
         "editor.findRangeHighlightBackground": "#50504F4D",
 
         "editor.hoverHighlightBackground": "#333332", //333332
-        "editor.lineHighlightBackground": "#202020", //212121 // color de linea donde esta el cursor
-        "editor.lineHighlightBorder": "#292928",
+        "editor.lineHighlightBackground": "#212428", //212121 // color de linea donde esta el cursor
+        //"editor.lineHighlightBorder": "#292928",
         "editorLink.activeForeground": "#8C8C8A",
         "editor.rangeHighlightBackground": "#50504F4D", //50504F4D
         "editorWhitespace.foreground": "#333332",
@@ -1378,18 +1390,11 @@
 
         "walkThrough.embeddedEditorBackground": "#0B0B0B",
 
-        "gitDecoration.modifiedResourceForeground": "#F3C900",
-        "gitDecoration.deletedResourceForeground": "#F3002B",
-        "gitDecoration.untrackedResourceForeground": "#00F3C9",
-        "gitDecoration.ignoredResourceForeground": "#8c8c8ab6", //8C8C8A
-        "gitDecoration.conflictingResourceForeground": "#FF41C1",
-
-        // navegacion superior
-        "breadcrumb.foreground": "#998870", // 6D6D6D 998870
-        "breadcrumb.focusForeground": "#BDAE98", // 8C8C8A
-        "breadcrumb.background":"#151E26",
-        "breadcrumb.activeSelectionForeground": "#998870",
-        "breadcrumbPicker.background": "#151E26", // "#292928" "#0E171F" 283138
+        "gitDecoration.modifiedResourceForeground": "#FFE79A", // F3C900
+        "gitDecoration.deletedResourceForeground": "#F3002B", // F3002B
+        "gitDecoration.untrackedResourceForeground": "#00F3C9", // 00F3C9
+        "gitDecoration.ignoredResourceForeground": "#8c8c8ab6", // 8C8C8A
+        "gitDecoration.conflictingResourceForeground": "#FF41C1", // FF41C1
 
 
 

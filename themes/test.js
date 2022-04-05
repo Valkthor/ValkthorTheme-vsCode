@@ -7,6 +7,21 @@ const hola = true;
 let test = 5 + 5;
 
 
+class testClass{
+
+     test="a"
+    constructor(){
+
+    }
+
+    chao (pico){
+        return pico;
+    }
+}
+
+const objtest = new testClass();
+objtest.chao("hola");
+
 /**
  * GET /ColaboradorUsersGls
  * @description  lista de Colaboradores y su usuario GLS
