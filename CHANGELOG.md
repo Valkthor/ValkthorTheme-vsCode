@@ -2,8 +2,17 @@
 
 All notable changes to the "ValkthorTheme" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+<!-- Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file. -->
 
 ## [Unreleased]
 
 - Initial release
+
+## [0.0.10] - 2022-04-21
+
+### Added
+
+- Activate changelog
+- Added better description to theme in english.
+-
+

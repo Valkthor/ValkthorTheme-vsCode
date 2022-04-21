@@ -18,3 +18,8 @@
 <p align="center"> Is my Own Theme based in Deepdark Material Theme.
 
 </p>
+
+
+## ScreenShots Preview
+
+![](./screenshots/startScreen.png)
