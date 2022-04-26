@@ -14,5 +14,4 @@ All notable changes to the "ValkthorTheme" extension will be documented in this 
 
 - Activate changelog
 - Added better description to theme in english.
--
-
+- Change colors of scroll bar, buttons, and anothers.

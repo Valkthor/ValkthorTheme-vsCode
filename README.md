@@ -15,11 +15,15 @@
 
 ---
 
-<p align="center"> Is my Own Theme based in Deepdark Material Theme.
-
+<p align="center">
+I started this theme based in deepdark-material, but then I have been completely modifying it, to the point that it is no longer like the original, but rather a new one.
 </p>
-
+<p align="center">
+I've been improving and changing it as I use it, you know, so it doesn't hurt your eyes and all that.
+</p>
 
 ## ScreenShots Preview
 
-![](./screenshots/startScreen.png)
+![Start screen](./screenshots/startScreen.png)
+![Example 1](./screenshots/example1.png)
+![Example 2](./screenshots/example2.png)
