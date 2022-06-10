@@ -5,7 +5,7 @@
     "version": "0.0.60",
     "publisher": "Valkthor",
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^1.64.1"
     },
 
     "homepage": "https://github.com/Valkthor/ValkthorTheme-vsCode/readme.md",
