@@ -2,10 +2,10 @@
     "name": "ValkthorTheme",
     "displayName": "Valkthor Theme Dark",
     "description": "Valkthor Theme Dark",
-    "version": "0.0.60",
+    "version": "0.0.61",
     "publisher": "Valkthor",
     "engines": {
-        "vscode": "^1.64.1"
+        "vscode": "^1.64.0"
     },
 
     "homepage": "https://github.com/Valkthor/ValkthorTheme-vsCode/readme.md",
