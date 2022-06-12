@@ -1308,7 +1308,7 @@
         "editorIndentGuide.activeBackground": "#50504F",
         "editorRuler.foreground": "#010b97",
         "editorCodeLens.foreground": "#808E68",
-        "editorBracketMatch.background": "#ff0000",
+        "editorBracketMatch.background": "#1290ff80",
         "editorBracketMatch.border": "#50504F",
         "editorOverviewRuler.findMatchForeground": "#e5ff00",
         "editorOverviewRuler.rangeHighlightForeground": "#50504F",
@@ -1418,9 +1418,8 @@
         "welcomePage.tileHoverBackground": "#313F4A",
         "welcomePage.tileShadow": "#07e2be",
         "walkThrough.embeddedEditorBackground": "#00F3C9",
-        "editor.snippetTabstopHighlightBackground": "#ff0000",
-        "editor.snippetTabstopHighlightBorder": "#ff0000",
-        "editor.snippetFinalTabstopHighlightBackground": "#ff0000",
-        "editor.snippetFinalTabstopHighlightBorder": "#ff0000"
+        "editor.snippetTabstopHighlightBackground": "#1290ff27",
+        "editor.snippetFinalTabstopHighlightBackground": "#27ff01",
+        "editor.snippetFinalTabstopHighlightBorder": "#1290ff67"
     }
 }
