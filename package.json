@@ -1,8 +1,8 @@
 {
     "name": "ValkthorTheme",
-    "displayName": "Valkthor Theme Dark",
-    "description": "Valkthor Theme Dark",
-    "version": "0.0.62",
+    "displayName": "Valkthor Dark theme",
+    "description": "Valkthor Dark theme",
+    "version": "0.0.64",
     "publisher": "Valkthor",
     "engines": {
         "vscode": "^1.64.0"
@@ -20,7 +20,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Valkthor Theme Dark",
+                "label": "Valkthor Dark theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/ValkthorDark-color-theme.json"
             }
