@@ -1428,7 +1428,7 @@
         "editor.wordHighlightBackground": "#1290ff3b", // 0c5ea579 333332
         ///"editor.wordHighlightBorder":"#ff0000",
         //"editor.wordHighlightStrongBackground": "#1290ff3b", // 0c5ea579 ori DA0093
-        "editor.findMatchBackground": "#1290ff3b", /// 43a0484d 43a047 // cuando encuentra algo en el buscador y al pinchar te muestra donde esta lo buscado
+        "editor.findMatchBackground": "#1290ff3b", //cuando encuentra algo en el buscador y al pinchar te muestra donde esta lo buscado
         "editor.findMatchHighlightBackground": "#880e4f",
         "editor.findRangeHighlightBackground": "#50504F4D",
         "editor.hoverHighlightBackground": "#333332", //333332
@@ -1469,8 +1469,8 @@
         // ==============================================
         // Editor widget colors ctrl mayus p// 
         // ==============================================
-        "editorWidget.foreground":"#737373", // color de los popups informativos // BDAE98
-        "editorWidget.background": "#151E26", //  sugerencias crel mayus p// 151E26 162615
+        "editorWidget.foreground":"#737373", // color de los popups informativos // BDAE98 
+        "editorWidget.background": "#151E26", //  sugerencias crel mayus p// 151E26 162615 151E26
         "editorWidget.border": "#ff0000", //  borde de sugerencias, y popups informativos //3A3B3C
         "editorWidget.resizeBorder": "#09ff00", // no encontrado
         
@@ -1487,12 +1487,14 @@
         "editorSuggestWidget.selectedIconForeground":"#128FFF",
         "editorSuggestWidgetStatus.foreground": "#00ff0d", // no encontrado
         
+        // ==============================================
         //popups que aparece al colocar el mouse ensima o en las ayudas
-        //"editorHoverWidget.foreground":"#ff0000", // se ve en popups el color de texto
-        "editorHoverWidget.background": "#111E08", // 333332 color de popup
+        // ==============================================
+        "editorHoverWidget.foreground":"#BDAE98", // color de texto al colocar el mouse sobre on objeto
+        "editorHoverWidget.background": "#000707", // 333332 color de popup 191919 111E08
         "editorHoverWidget.border": "#26341B", // el borde del popups
-        //"editorHoverWidget.highlightForeground": "#ff0000", // no encontrado
-        //"editorHoverWidget.statusBarBackground":"#ff0000", // no encontrado
+        //"editorHoverWidget.highlightForeground": "#ff0303", // no encontrado
+        "editorHoverWidget.statusBarBackground":"#061818", // fondo del quickfix
         
         "editorGhostText.border":"#1100ff",
         "editorGhostText.background":"#1100ff",
@@ -1550,16 +1552,16 @@
         "panelSection.dropBackground": "#2218095e", // cuando se arrastra el panel superior // 00aeff
         "panelSectionHeader.background": "#353C1A", // parte superior del panel donde sale debug consola y terminal // 056445
         "panelSectionHeader.foreground": "#dadada", // letras del titulo //6b6b6b
-        //"panelSectionHeader.border": "#f30000", // no encontrado
+        "panelSectionHeader.border": "#f30000", // no encontrado
         // ==============================================
         // ======== Status Bar colors barra inferior ========
         // ==============================================
         "statusBar.foreground": "#998870", // 98ED00 878787
-        "statusBar.background": "#151E26", // 0E171F "#283138" "#121314" 151E26 
+        "statusBar.background": "#031C33", // 0E171F "#283138" "#121314" 151E26 
         "statusBar.debuggingForeground": "#F8F8F2",
         "statusBar.debuggingBackground": "#F34F00",
         "statusBar.noFolderForeground": "#878787",
-        "statusBar.noFolderBackground": "#ff0808", // 080808
+        "statusBar.noFolderBackground": "#0F4371", //barra inferior cuando con la pantalla de welcome // 080808
         "statusBarItem.hoverBackground": "#0B0B0B",
         "statusBarItem.activeBackground": "#000000",
         // ==============================================
