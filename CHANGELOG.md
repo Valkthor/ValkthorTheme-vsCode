@@ -15,3 +15,9 @@ All notable changes to the "ValkthorTheme" extension will be documented in this 
 - Activate changelog
 - Added better description to theme in english.
 - Change colors of scroll bar, buttons, and anothers.
+
+## [1.0.0] - 2025-11-28
+
+### Added
+
+- Finalize firt version
