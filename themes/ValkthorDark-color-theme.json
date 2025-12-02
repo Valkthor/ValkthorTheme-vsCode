@@ -1455,7 +1455,7 @@
         "editorOverviewRuler.warningForeground": "#F3C900",
         "editorOverviewRuler.infoForeground": "#00F3C9", // 00F3C9
         "editorError.foreground": "#F3002B",
-        "editorWarning.foreground": "#F3C900",
+        "editorWarning.foreground": "#00ff884f", // F3C900
         "editorInfo.foreground": "#BDAE98", // 00F3C9  // Foreground color of info squigglies in the editor.
         "editorHint.foreground": "#A9B9B0",
         "editorGutter.modifiedBackground": "#F3C900",
@@ -1506,13 +1506,14 @@
         // cuadro q aparece al apretar el f8 y buscar el siguiente error
         "editorMarkerNavigation.background": "#ffff1317",
         "editorUnnecessaryCode.border": "#ff0000", // OK // Linea punteada sobre variables no necesarias
+        "editorUnnecessaryCode.opacity": "#5c5c5cad",
         "editorMarkerNavigationError.background": "#1290ff80", // OK // linea de cuadro del f8
         "editorMarkerNavigationError.headerBackground":"#ffb95865",
         "editorMarkerNavigationInfo.background": "#ffff13", // no encontrado aun
         "editorMarkerNavigationInfo.headerBackground":"#ffff13",
         "editorMarkerNavigationWarning.background": "#00ff15",
         "editorMarkerNavigationWarning.headerBackground":"#00ff15",
-        "editorUnnecessaryCode.opacity": "#ff0000",
+        
         // ==============================================
         // ========Peek view colors ======== ctrl f12
         // ==============================================
