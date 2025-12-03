@@ -1454,8 +1454,8 @@
         "editorOverviewRuler.errorForeground": "#F3002B",
         "editorOverviewRuler.warningForeground": "#F3C900",
         "editorOverviewRuler.infoForeground": "#00F3C9", // 00F3C9
-        "editorError.foreground": "#F3002B",
-        "editorWarning.foreground": "#00ff884f", // F3C900
+        "editorError.foreground": "#F3002B", // F3002B
+        //"editorWarning.foreground": "#ff0000", // marca abajo las variables que no se usan, tambien las marca en el mapa// F3C900
         "editorInfo.foreground": "#BDAE98", // 00F3C9  // Foreground color of info squigglies in the editor.
         "editorHint.foreground": "#A9B9B0",
         "editorGutter.modifiedBackground": "#F3C900",
@@ -1496,9 +1496,9 @@
         //"editorHoverWidget.highlightForeground": "#ff0303", // no encontrado
         "editorHoverWidget.statusBarBackground":"#061818", // fondo del quickfix
         
-        "editorGhostText.border":"#1100ff",
-        "editorGhostText.background":"#1100ff",
-        "editorGhostText.foreground":"#1100ff",
+        // "editorGhostText.border":"#1100ff",
+        // "editorGhostText.background":"#1100ff",
+        // "editorGhostText.foreground":"#1100ff",
 
         "debugExceptionWidget.background": "#3f8350",
         "debugExceptionWidget.border": "#F3002B",
